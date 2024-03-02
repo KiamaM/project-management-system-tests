@@ -1,0 +1,38 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="parentDiv">
+    <div class="loginForm">
+      <div class="logo">
+        <h3>PMSP projects</h3>
+      </div>
+      <form #LoginForm = 'ngForm' (ngSubmit)="login(LoginForm.value)" class="loginForm">
+        <h3>Sign in</h3>
+        <div *ngIf="visible2" class="successDiv"  style="color: green; text-align: center; width: 100%;">{{successMsg}}</div> 
+        <div *ngIf="visible" class="notLoggedInErrorDiv" style="color: red; text-align: center;">{{errorMsg}}</div>   
+        <div class="uName">
+          <label for="userName">Email</label>
+          <br>
+          <input type="email" name="Username" id="userName" placeholder="Enter Your email" ngModel [data-cy="email"]>
+          <br>
+        </div>
+        <div class="pd">
+          <label for="loginPwd">Password</label>
+          <br>
+          <input type="password" name="Password" id="loginPwd" placeholder="Password" ngModel [data-cy="password"]>
+          <br>
+          <a id="forgot">Forgot password?</a>
+          <br>
+        </div>
+        <div class="loginBtn">
+          <input type="submit" value="Login" id="signIn">
+          <br>
+        </div>
+      </form>
+    </div>
+    <div class="welcome">
+      <img src="../../assets/Project Manager.webp" alt="">
+    </div>
+  </div>
+  
+  <router-outlet></router-outlet>
+  

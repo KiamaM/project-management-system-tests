@@ -1,0 +1,17 @@
+.navContainer{
+    width: 72vw;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.membership{
+    display: flex;
+    gap: 10px;
+    color: #38ACEC;
+    cursor: pointer;
+}

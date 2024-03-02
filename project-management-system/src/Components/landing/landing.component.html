@@ -1,0 +1,69 @@
+<div class="userContainer">
+    <div class="userNavLink">
+        <div class="logo"><h3 id="userLogo">PMSP projects</h3></div>
+        <div class="sidebarNav">
+            <button>Dashboard</button>
+            <button>Completed Projects</button>
+            <button>Active Projects</button>
+            <button>Urgent Projects</button>
+            <button>All Porjects</button>
+            <button>Messages</button>
+        </div>
+    </div>
+    <div class="userContent">
+        <app-nav-bar></app-nav-bar>
+        <div class="addProjectBtnDiv">
+            <button>ADD PROJECT</button>
+        </div>
+        <div class="userBody">
+            <div class="userDisplay">
+                <div class="left">
+                    <h3>Hello, </h3>
+                    <br>
+                    <p>You currently have no active projects</p>
+                    <div class="activeProjects">
+                        <p class="howMany">Active Projects</p>
+                        <hr>
+                        <div class="projectsAssigned">
+                            <p id="assignedTotal">0</p>
+                            <br>
+                            <p>In Total</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle">
+                    <h3>Completed projects</h3>
+                    <br>
+                    <p>You  have not completed any projects yet</p>
+                    <div class="activeProjects">
+                        <p class="howMany">Completed projects</p>
+                        <hr>
+                        <div class="projectsAssigned">
+                            <p id="assignedTotal">0</p>
+                            <br>
+                            <p>In Total</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right" style="display: none;">
+                    <h3>Your messages</h3>
+                    <br>
+                    <p>You currently don't have any messages</p>
+                    <div class="activeProjects">
+                        <p class="howMany">Mesages</p>
+                        <hr>
+                        <div class="projectsAssigned">
+                            <p id="assignedTotal">0</p>
+                            <br>
+                            <p>In Total</p>
+                        </div>
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2017/07/18/23/23/user-2517433_960_720.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<router-outlet></router-outlet>
+

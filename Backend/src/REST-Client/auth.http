@@ -1,0 +1,13 @@
+###
+
+GET  http://localhost:4500/auth/checkdetails
+Content-Type: application/json
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZTYxNDFiZDYtMTllYS00Y2IxLWJjMzMtMzJiNzI4ZjJjYTIwIiwiZW1haWwiOiJtYWlsaW5nQG1haWxlZC5jb20iLCJwYXNzd29yZCI6IiQyYiQwNSR5cEpqVU1BSG81THF4QjR5L3FqSWdPU0pFazJseU5HL2dvbGJFTmM3LnY5cWpEN0w3MThacSIsImlzX2RlbGV0ZWQiOmZhbHNlLCJpc193ZWxjb21lZCI6ZmFsc2UsImlhdCI6MTcwOTM2MDIwMCwiZXhwIjoxNzA5MzYzODAwfQ.l8gGhiU1C6MjIfyNtaJZkfyyAIWvdnO6jWCXQPoasqA
+###
+POST http://localhost:4500/auth/login
+Content-Type: application/json
+
+{
+    "email":"mailing@mailed.com",
+    "password":"Passed"
+}

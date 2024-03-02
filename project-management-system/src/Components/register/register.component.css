@@ -1,0 +1,104 @@
+.registerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border:  1px solid blue; */
+    height: 120vh;
+    background-color: #eaedf1;
+  }
+
+  
+  .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    /* border: 1px solid blue; */
+  
+  }
+  
+  .navLogin{
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 50%;
+  }
+  
+  .newUser{
+    width: 60%;
+    height: 90%;
+    /* border: 1px solid blue; */
+    background-color: white;
+  }
+  
+  .newUser h2{
+    width: 70%;
+    /* font-weight:lighter; */
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border: 1px solid blue; */
+  
+  }
+  
+  #loginLink{
+    color: #38ACEC;
+  }
+  
+  #loginLink:hover{
+    color:#4b4646
+  }
+  
+  .bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    height: 85%;
+  }
+  
+  .signUp{
+    /* border: 1px solid blue; */
+    width: 80%;
+    height: 90%;
+  }
+  
+  .signUp input{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(145, 141, 141, 0.4);
+  }
+  
+  #createUser{
+    margin-top: 20px;
+    background-color: #38ACEC;
+    height: 40px;
+    width: 93%;
+  }
+  
+  #createUser:hover{
+    background-color: #dbdbdb;
+  }
+  
+  #terms{
+    text-align: center;
+  }
+  
+  @media only screen and (max-width:428px) {
+    
+  .registerContainer{
+    width: 100vw;
+  align-items: start;
+  }
+  
+  .newUser{
+    width: 100%;
+  }
+    
+     
+     }

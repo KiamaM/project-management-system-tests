@@ -1,0 +1,18 @@
+[{
+    "email": "hello@cypress.io",
+    "password": "12345678"
+},
+{
+    "email": "Wrong email",
+    "password": "hello@cypress.io"
+},
+{
+    "email": "hello@cypress.io",
+    "password": "wrong password"
+}
+
+
+]
+
+
+  

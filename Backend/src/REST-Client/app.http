@@ -1,0 +1,16 @@
+GET http://localhost:4500/users
+Content-Type: application/json
+
+
+
+###
+POST http://localhost:4500/users
+Content-Type: application/json
+
+{
+    "first_name":"May",
+    "last_name":"Dean",
+    "email":"mailing@mailed.com",
+    "password":"Passed"    
+}
+###
